@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(219, 243, 245);
+}
+.main{
+    min-height: 100vh;
+    max-width: 430px; 
+    padding: 20px 15px; 
+    margin: 100px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+}
+h2{
+    font-size: 30px;
+    font-weight: 900;
+}
+h6{
+    color: #777;
+    font-size: 17px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #777;
+}
+form{
+    margin: 13px auto;
+}
+form select{
+    padding: 8px 5px;
+    width: 117px;
+    border-radius: 5px;
+    margin: 6px;
+}
+form p{
+    text-align: left;
+}
+.showblock{
+    padding: 6px 15px;
+    width: 380px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 20px auto;
+    display: block;
+}
+.paragraph{
+    font-size: 12px;
+    margin: 10px 0px;
+}
+button{
+    padding: 9px 5rem;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    border: rgb(81, 119, 30);
+    background-color: rgb(81, 119, 30);
+    display: block;
+    align-items: center;
+    margin: 20px auto;
+}
+form p a{
+    text-decoration: none;
+    color: rgb(58, 124, 187);
+}
+form p{
+    color: #777;
+}
+.nameinput{
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin: 10px 2px;
+    height: 40px;
+}
+.radio{
+    border: 1px solid #777;
+    padding: 7px;
+    width: 117px;
+    display: inline-flex;
+    border-radius: 5px;
+    margin: 6px;
+}
+.radio input{
+    margin-left: 35px;
+}
+.hiddenitems{
+    display: none;
+}
+.hiddenselect{
+    width: 380px;
+    margin: 12px auto;
+}
+.error {
+      border: 2px solid red;
+      background-image: url('https://cdn-icons-png.flaticon.com/512/463/463612.png'); /* warning icon */
+      background-repeat: no-repeat;
+      background-position: right 8px center;
+      background-size: 16px;
+    }
